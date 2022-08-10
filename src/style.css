@@ -1,8 +1,8 @@
 :root {
   --primary-color: #132743;
   --secondary-color: #407088;
-  --accent-color: #ffb5b5;
-  --light-accent-color: #ffcbcb;
+  --accent-color: #fcacac;
+  --light-accent-color: #fbdfdf;
   --box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -57,4 +57,45 @@ h3 {
   border-color: var(--accent-color);
   color: var(--primary-color);
   box-shadow: var(--box-shadow);
+}
+
+.home-link {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  color: var(--secondary-color);
+}
+
+.about-main-section p {
+  margin: 10px;
+  max-width: 357px;
+}
+
+p {
+  background: var(--light-accent-color);
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.about-main-section {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+.contact-me {
+  color: var(--primary-color);
+}
+
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--accent-color);
+  font-size: 28px;
+  text-decoration: none;
+  padding: 10px;
+  margin-bottom: 60px;
 }

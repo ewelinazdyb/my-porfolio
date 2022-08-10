@@ -1,0 +1,38 @@
+:root {
+  --primary-color: #132743;
+  --secondary-color: #407088;
+  --accent-color: #ffb5b5;
+  --light-accent-color: #ffcbcb;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  font-size: 96px;
+}
+
+h2 {
+  margin-top: 60px;
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 24px;
+  opacity: 0.7;
+}
+
+.nav-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.about-link,
+.contact-link {
+}

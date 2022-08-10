@@ -99,3 +99,7 @@ p {
   padding: 10px;
   margin-bottom: 60px;
 }
+
+.email-link:hover {
+  text-decoration: underline;
+}

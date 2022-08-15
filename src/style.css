@@ -147,11 +147,15 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
+  color: var(--secondary-color);
 }
 
 @media (max-width: 767px) {
   h1 {
-    font-size: 76px;
+    font-size: 54px;
+  }
+  h2 {
+    font-size: 28px;
   }
   .projects h2,
   .projects p {
@@ -160,5 +164,8 @@ p {
   .projects a {
     display: block;
     text-align: center;
+  }
+  .projects img {
+    display: none;
   }
 }

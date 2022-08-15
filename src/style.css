@@ -16,12 +16,15 @@
 }
 /* navigation link text color */
 .navbar-customclass .navbar-nav .nav-link {
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 /* navigation links anchor hover and active styles */
-.navbar-customclass .nav-item.active .nav-link,
+.navbar-nav .active {
+  color: var(--primary-color) !important;
+}
+
 .navbar-customclass .nav-item:hover .nav-link {
-  color: var(--secondary-color);
+  color: var(--accent-color);
 }
 
 .custom-toggler .navbar-toggler-icon {
@@ -75,6 +78,7 @@ h3 {
   border-radius: 5px;
   padding: 20px 16px;
   text-decoration: none;
+  box-shadow: var(--box-shadow);
 }
 
 .about-link {
@@ -86,22 +90,44 @@ h3 {
   background-color: var(--accent-color);
   border-color: var(--accent-color);
   color: var(--primary-color);
-  box-shadow: var(--box-shadow);
 }
 
 .nav-links a:hover {
   color: var(--secondary-color);
 }
 
+.projects {
+  margin-top: 80px;
+}
+
+.projects h2,
+.projects p {
+  text-align: left;
+}
+
+.projects a {
+  background-color: var(--accent-color);
+  color: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  border-radius: 5px;
+  padding: 16px 16px;
+  text-decoration: none;
+}
+
+.projects a:hover {
+  color: var(--secondary-color);
+}
+
 p {
   color: var(--primary-color);
-  padding: 20px;
+  padding: 20px 0;
   font-size: 18px;
   line-height: 1.5;
   text-align: center;
 }
 
 .contact-me {
+  margin-top: 40px;
   color: var(--primary-color);
 }
 
